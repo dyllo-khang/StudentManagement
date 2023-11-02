@@ -1,0 +1,212 @@
+{
+  "format": 1,
+  "restore": {
+    "\\\\Mac\\Home\\Downloads\\SE141190_NgoVyKhang_Assignment2\\StudentManagementGUI_EF\\ManagementRepository\\ManagementRepository.csproj": {}
+  },
+  "projects": {
+    "\\\\Mac\\Home\\Downloads\\SE141190_NgoVyKhang_Assignment2\\StudentManagementGUI_EF\\BusinessObject\\BusinessObject.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "\\\\Mac\\Home\\Downloads\\SE141190_NgoVyKhang_Assignment2\\StudentManagementGUI_EF\\BusinessObject\\BusinessObject.csproj",
+        "projectName": "BusinessObject",
+        "projectPath": "\\\\Mac\\Home\\Downloads\\SE141190_NgoVyKhang_Assignment2\\StudentManagementGUI_EF\\BusinessObject\\BusinessObject.csproj",
+        "packagesPath": "C:\\Users\\ngokhang\\.nuget\\packages\\",
+        "outputPath": "\\\\Mac\\Home\\Downloads\\SE141190_NgoVyKhang_Assignment2\\StudentManagementGUI_EF\\BusinessObject\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ngokhang\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.413\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "\\\\Mac\\Home\\Downloads\\SE141190_NgoVyKhang_Assignment2\\StudentManagementGUI_EF\\ManagementDAO\\ManagementDAO.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "\\\\Mac\\Home\\Downloads\\SE141190_NgoVyKhang_Assignment2\\StudentManagementGUI_EF\\ManagementDAO\\ManagementDAO.csproj",
+        "projectName": "ManagementDAO",
+        "projectPath": "\\\\Mac\\Home\\Downloads\\SE141190_NgoVyKhang_Assignment2\\StudentManagementGUI_EF\\ManagementDAO\\ManagementDAO.csproj",
+        "packagesPath": "C:\\Users\\ngokhang\\.nuget\\packages\\",
+        "outputPath": "\\\\Mac\\Home\\Downloads\\SE141190_NgoVyKhang_Assignment2\\StudentManagementGUI_EF\\ManagementDAO\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ngokhang\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "\\\\Mac\\Home\\Downloads\\SE141190_NgoVyKhang_Assignment2\\StudentManagementGUI_EF\\BusinessObject\\BusinessObject.csproj": {
+                "projectPath": "\\\\Mac\\Home\\Downloads\\SE141190_NgoVyKhang_Assignment2\\StudentManagementGUI_EF\\BusinessObject\\BusinessObject.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.413\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "\\\\Mac\\Home\\Downloads\\SE141190_NgoVyKhang_Assignment2\\StudentManagementGUI_EF\\ManagementRepository\\ManagementRepository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "\\\\Mac\\Home\\Downloads\\SE141190_NgoVyKhang_Assignment2\\StudentManagementGUI_EF\\ManagementRepository\\ManagementRepository.csproj",
+        "projectName": "ManagementRepository",
+        "projectPath": "\\\\Mac\\Home\\Downloads\\SE141190_NgoVyKhang_Assignment2\\StudentManagementGUI_EF\\ManagementRepository\\ManagementRepository.csproj",
+        "packagesPath": "C:\\Users\\ngokhang\\.nuget\\packages\\",
+        "outputPath": "\\\\Mac\\Home\\Downloads\\SE141190_NgoVyKhang_Assignment2\\StudentManagementGUI_EF\\ManagementRepository\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ngokhang\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "\\\\Mac\\Home\\Downloads\\SE141190_NgoVyKhang_Assignment2\\StudentManagementGUI_EF\\BusinessObject\\BusinessObject.csproj": {
+                "projectPath": "\\\\Mac\\Home\\Downloads\\SE141190_NgoVyKhang_Assignment2\\StudentManagementGUI_EF\\BusinessObject\\BusinessObject.csproj"
+              },
+              "\\\\Mac\\Home\\Downloads\\SE141190_NgoVyKhang_Assignment2\\StudentManagementGUI_EF\\ManagementDAO\\ManagementDAO.csproj": {
+                "projectPath": "\\\\Mac\\Home\\Downloads\\SE141190_NgoVyKhang_Assignment2\\StudentManagementGUI_EF\\ManagementDAO\\ManagementDAO.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.413\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
